@@ -49,7 +49,7 @@ const destinations = [
 ];
 export default function DestinationSlider() {
   return (
-    <section className="relative overflow-hidden bg-[#faf9f7] py-16 ">
+    <section className="relative overflow-hidden bg-[#faf9f7]  ">
       <div className="container mx-auto px-4">
         {/* Header */}
 
@@ -118,7 +118,7 @@ export default function DestinationSlider() {
         >
           {destinations.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="group relative h-[580px] overflow-hidden rounded-[30px] shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
+              <div className="group relative h-[580px]  text-white overflow-hidden rounded-[30px] shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
                 {/* Image */}
 
 
