@@ -16,7 +16,7 @@ export default function DesktopNav() {
       <nav className="flex items-center gap-8 text-[15px] font-medium text-black">
 
         <Link
-          href="/travel"
+          href=""
           className="flex items-center gap-2 hover:text-[#7B0F33]"
         >
           <Plane size={16} />

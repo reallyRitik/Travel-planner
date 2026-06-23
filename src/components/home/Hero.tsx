@@ -1,22 +1,30 @@
 export default function Hero() {
   return (
-    <section className="py-32 bg-gray-100">
-      <div className="max-w-7xl mx-auto px-6">
+    <section
+      className="relative h-[320px] md:h-[366px] xl:h-[366px] bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/images/hero/hero-bg.png')"
+      }}
+    >
+      <div className="absolute inset-0 bg-black/20" />
 
-        <h1 className="text-6xl font-bold leading-tight">
-          Global Trade, Travel & Lifestyle Solutions
-        </h1>
+      <div className="relative z-10 max-w-7xl mx-auto px-6 h-full flex items-center">
+        <div className="max-w-md">
 
-        <p className="mt-6 text-xl text-gray-600 max-w-2xl">
-          Raj Global Enterprise connects travel,
-          exports, vehicles and lifestyle products
-          through one trusted platform.
-        </p>
+          <h1 className="text-white font-serif text-5xl xl:text-6xl font-semibold leading-tight">
+            Redefining
+            <br />
+            Journeys
+          </h1>
 
-        <button className="mt-8 bg-blue-600 text-white px-8 py-4 rounded-lg">
-          Explore Services
-        </button>
+          <div className="w-16 h-1 bg-[#D4AF37] mt-5 mb-5"></div>
 
+          <p className="text-white/90 text-base leading-7">
+            Your trusted travel partner for unforgettable
+            experiences worldwide.
+          </p>
+
+        </div>
       </div>
     </section>
   );

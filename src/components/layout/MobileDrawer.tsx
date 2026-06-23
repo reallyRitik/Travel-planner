@@ -58,7 +58,7 @@ export default function MobileDrawer({
         {/* Links */}
         <div className="flex flex-col p-6 gap-6 text-lg text-black font-medium">
 
-          <Link href="/travel">Travel</Link>
+          <Link href="">Travel</Link>
 
           <Link href="/vehicles">Vehicles</Link>
 
