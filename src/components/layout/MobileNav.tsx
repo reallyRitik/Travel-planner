@@ -24,7 +24,7 @@ export default function MobileNav() {
 
       </div>
 
-      <MobileDrawer open={open} setOpen={setOpen} />
+      {/* <MobileDrawer open={open} setOpen={setOpen} /> */}
     </>
   );
 }
